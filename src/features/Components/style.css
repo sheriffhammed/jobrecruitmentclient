@@ -1,0 +1,26 @@
+.banner-backgroud {
+  background: linear-gradient(to top, #db98b2, #a6d9df);
+  margin-bottom: 50px;
+  z-index: -1;
+  margin-top: 0;
+  height: 300px;
+  color: #22177a;
+}
+
+#search {
+  margin-top: 30px;
+  display: flex;
+  justify-items: center;
+  height: 40px;
+  width: 600px;
+  font-size: 12px;
+  outline: #fff;
+  border-color: #fff;
+  text-align: left;
+  background-color: #fff;
+}
+#search-button {
+  margin-top: 30px;
+  display: flex;
+  justify-items: center;
+}
