@@ -30,13 +30,13 @@ const JobListing = ({
   );
   return (
     <>
-      <div class="list-group-item py-3">
-        <h5 class="mb-1">{title}</h5>
+      <div className="list-group-item py-3">
+        <h5 className="mb-1">{title}</h5>
         <div>
-          <p class="mb-1 fw-bold">
+          <p className="mb-1 fw-bold">
             {company} - {location} ({modeOfWork} | {jobType} | {experience})
           </p>
-          <p class="mb-1">{description}</p>
+          <p className="mb-1">{description}</p>
           <p>Salary : £ {salary}</p>
           {actionButtons}
         </div>
